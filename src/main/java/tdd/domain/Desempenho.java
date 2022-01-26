@@ -1,5 +1,5 @@
 package tdd.domain;
 
 public enum Desempenho {
-	A_DESEJAR, BOM;
+	A_DESEJAR, BOM, OTIMO;
 }
