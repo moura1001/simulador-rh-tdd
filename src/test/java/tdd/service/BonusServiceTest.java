@@ -8,11 +8,12 @@ import java.time.LocalDate;
 import org.junit.jupiter.api.Test;
 
 import tdd.domain.Funcionario;
+import tdd.domain.RegraBonusException;
 
 public class BonusServiceTest {
 	
 	@Test
-	void bonusDeveSerZeroParaFuncionarioComSalarioMuitoAlto() {
+	void funcionarioComSalarioMuitoAltoNaoDeveReceberBonus() {
 		Funcionario funcionario = new Funcionario("João", LocalDate.now(), new BigDecimal("16000"));
 		BonusService service = new BonusService();
 				
