@@ -1,4 +1,4 @@
-package tdd.domain;
+package tdd.domain.utils;
 
 public class RegraBonusException extends RuntimeException {
 	

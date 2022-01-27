@@ -7,8 +7,8 @@ import java.time.LocalDate;
 
 import org.junit.jupiter.api.Test;
 
-import tdd.domain.Funcionario;
-import tdd.domain.RegraBonusException;
+import tdd.domain.model.Funcionario;
+import tdd.domain.utils.RegraBonusException;
 
 public class BonusServiceTest {
 	

@@ -2,8 +2,8 @@ package tdd.service;
 
 import java.math.BigDecimal;
 
-import tdd.domain.Desempenho;
-import tdd.domain.Funcionario;
+import tdd.domain.model.Desempenho;
+import tdd.domain.model.Funcionario;
 
 public class ReajusteService {
 

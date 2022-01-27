@@ -7,8 +7,8 @@ import java.time.LocalDate;
 
 import org.junit.jupiter.api.Test;
 
-import tdd.domain.Desempenho;
-import tdd.domain.Funcionario;
+import tdd.domain.model.Desempenho;
+import tdd.domain.model.Funcionario;
 
 public class ReajusteServiceTest {
 	

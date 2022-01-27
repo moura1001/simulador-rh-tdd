@@ -3,8 +3,8 @@ package tdd.service;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-import tdd.domain.Funcionario;
-import tdd.domain.RegraBonusException;
+import tdd.domain.model.Funcionario;
+import tdd.domain.utils.RegraBonusException;
 
 public class BonusService {
 
